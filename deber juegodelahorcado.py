@@ -25,3 +25,11 @@ while intentos_restantes > 0:
         print("Incorrecto. Pierdes un intento.")
         intentos_restantes -= 1
 
+#EXPLICACION DEL PROCEDIMIENTO:
+# se utilizara el comando "while" meintras tengamos los intentos restantes
+# dentro del ciclo se pide al jugador que adivine una letra la cual se almacenara
+# en la variable "letra". Por medio de la funcion .lower convertiremos las letras escritas
+# en minusculas. Utilizaremos la condicion "IF" para verificar si la letra adivinada es correcta
+# si la letra esta en la palbra secreta se imprimira el mensaje "correcto"
+# Utilizaremos el comando "bucle For" para recorrec la posicion de la palabra secreta
+
